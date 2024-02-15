@@ -6,3 +6,5 @@ This repository is published together with the article entitled "Analyzing the I
 `bom_tc_pkg.py` provides the functions used in the two notebooks.
 
 `model_publish` contains the pretrained weights of random forest model. `rf_train.pkl` is the weight trained on the training set and to be tested on the testing set. `rf_shap.pkl` shares the same model structure with `rf_train.pkl` but trained on the whole data set, which was used for SHAP interpretation.
+
+:warning: Some of the values in the published data set are redacted due to non-disclosure agreement. The redacted values are marked in the data set. It should be noted that new models trained on the redacted data set may not yield the same results as models mentioned in the article that are trained on the original data set.
